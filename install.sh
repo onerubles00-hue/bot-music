@@ -17,7 +17,7 @@ source venv/bin/activate
 pip install --upgrade pip
 
 # Установка зависимостей
-pip install python-telegram-bot APScheduler
+pip install -r requirements.txt
 
 echo "✅ Установка завершена"
 echo "👉 Запуск: cd bot-massage && source venv/bin/activate && python bot.py"
